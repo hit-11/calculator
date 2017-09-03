@@ -1,0 +1,58 @@
+html{
+    font-size:40px;
+    background-color: blanchedalmond;
+
+}
+.container{
+    position:absolute;
+    top:25%;
+    left:40%;
+
+}
+.themeSwitcher{
+    background-color: black;
+    color:deeppink;
+    font-size:20px;
+    border:black solid 1px;
+}
+input{
+    border-top-right-radius:15px;
+    border-bottom-right-radius:15px;
+    border-top-left-radius:15px;
+    border-bottom-left-radius:15px;
+    width:154px;
+    height:60px;
+    font-size: 1rem;
+    border:blanchedalmond 2px solid;
+    padding-left:5px;
+    text-align:end;
+    vertical-align:middle;
+    line-height:10px;
+    padding-right:10px;
+    margin-right:5px;
+}
+input:focus{
+    outline: none;
+}
+.equals{
+    border-top-right-radius:15px;
+    border-bottom-right-radius:15px;
+    border-top-left-radius:15px;
+    border-bottom-left-radius:15px;
+    width:50px;
+    height:50px;
+    font-size:.6rem;
+    background-color: deepskyblue;
+    vertical-align:middle;
+}
+
+.btn{
+    padding-top:20px;
+}
+
+.btn button{
+    width:50px;
+    height:50px;
+    font-size:.6rem;
+    background-color: deepskyblue;
+}
