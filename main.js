@@ -1,8 +1,16 @@
+var html=document.querySelector('html');
 var themeSwitcher=document.querySelector('.themeSwitcher');
 var numberInput=document.querySelector('.numberInput');
 var btn=document.querySelectorAll('button');
-var html=document.querySelector('html');
+var add=document.querySelector('.add');
+var subtract=document.querySelector('.subtract');
+var multiply=document.querySelector('.multiply');
+var divide=document.querySelector('.divide');
+var clear=document.querySelector('.clear');
+var cancel=document.querySelector('.cancel');
+var result=0;
 
+/*changing the theme*/
 themeSwitcher.onclick=function () {
     if (themeSwitcher.textContent === 'Darken') {
         themeSwitcher.textContent = 'Lighten';
@@ -15,6 +23,7 @@ themeSwitcher.onclick=function () {
         themeSwitcher.style.backgroundColor = 'black';
     }
 }
+/*onclick input buttons*/
 for(var i=0;i<btn.length;i++){
     if(isNaN(btn[i].textContent)){
         continue;
@@ -27,3 +36,7 @@ for(var i=0;i<btn.length;i++){
 function clickToInput(text) {
       numberInput.value+=text;
 }
+
+
+
+
