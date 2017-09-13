@@ -16,7 +16,10 @@ html{
     border:black solid 1px;
 }
 input{
+<<<<<<< HEAD
 
+=======
+>>>>>>> gh-pages
     width:215px;
     height:60px;
     font-size: 1rem;
@@ -31,11 +34,21 @@ input{
 input:focus{
     outline: none;
 }
+<<<<<<< HEAD
 #equals{
+=======
+button{
+    outline:none;
+>>>>>>> gh-pages
     border-top-right-radius:15px;
     border-bottom-right-radius:15px;
     border-top-left-radius:15px;
     border-bottom-left-radius:15px;
+<<<<<<< HEAD
+=======
+}
+#equals{
+>>>>>>> gh-pages
     width:230px;
     height:50px;
     font-size:1rem;
