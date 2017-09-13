@@ -16,11 +16,7 @@ html{
     border:black solid 1px;
 }
 input{
-    border-top-right-radius:15px;
-    border-bottom-right-radius:15px;
-    border-top-left-radius:15px;
-    border-bottom-left-radius:15px;
-    width:154px;
+    width:215px;
     height:60px;
     font-size: 1rem;
     border:blanchedalmond 2px solid;
@@ -34,14 +30,17 @@ input{
 input:focus{
     outline: none;
 }
-.equals{
+button{
+    outline:none;
     border-top-right-radius:15px;
     border-bottom-right-radius:15px;
     border-top-left-radius:15px;
     border-bottom-left-radius:15px;
-    width:50px;
+}
+#equals{
+    width:230px;
     height:50px;
-    font-size:.6rem;
+    font-size:1rem;
     background-color: deepskyblue;
     vertical-align:middle;
 }
