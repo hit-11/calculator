@@ -47,34 +47,40 @@ function clickToInput(text) {
 /*adding functinality to the non-number buttons*/
 
 add.onclick=function () {
+    if(numberInput.value !== ''){
     result=Number(numberInput.value);
-    numberInput.value='';
+    numberInput.value='';}
     operator=1;
-    if(cntEqClick >1){
+    if(cntEqClick >=1){
         flag=1;
         cntFlag=1;}
+
 }
 subtract.onclick=function () {
+    if(numberInput.value !== ''){
     result=Number(numberInput.value);
-    numberInput.value='';
+    numberInput.value='';}
     operator=2;
-    if(cntEqClick >1){
-        flag=1;
-        cntFlag=1;}
-}
+    if(cntEqClick >=1) {
+        flag = 1;
+        cntFlag = 1;
+     }
+    }
 multiply.onclick=function () {
+    if(numberInput.value !== ''){
     result=Number(numberInput.value);
-    numberInput.value='';
+    numberInput.value='';}
     operator=3;
-    if(cntEqClick >1){
+    if(cntEqClick >=1){
         flag=1;
         cntFlag=1;}
 }
 divide.onclick=function () {
+    if(numberInput.value !== ''){
     result=Number(numberInput.value);
-    numberInput.value='';
+    numberInput.value='';}
     operator=4;
-    if(cntEqClick >1){
+    if(cntEqClick >=1){
         flag=1;
         cntFlag=1;}
 }
